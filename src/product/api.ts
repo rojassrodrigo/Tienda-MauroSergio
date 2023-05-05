@@ -6,7 +6,7 @@ export default {
     list: async (): Promise<Product[]> => {
         return axios
         .get(
-            `https://docs.google.com/spreadsheets/d/e/2PACX-1vR3FOjVdbC9lgHBaSccJcTJ2yzhi93kDAwvFhHBXapg3JTmP7mrh_HTvn77ay8wBae-6ND1FntYsw3o/pub?output=csv`,
+            `https://docs.google.com/spreadsheets/d/e/2PACX-1vSOsR3GQ47rFMjmW9rAx1Xg8TfPda89Dp329I3ZnycqFj7UWWPYVxYCDpcwaWBXsOyu4FXZyp3wvAKT/pub?output=csv`,
             {
                 responseType: "blob",
             },

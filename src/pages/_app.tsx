@@ -2,7 +2,7 @@
 import React from 'react';
 import { Box, ChakraProvider, Container, Divider, Heading, Image, Stack, Text } from '@chakra-ui/react';
 import { AppProps } from 'next/app';
-import logo from '../styles/logoStore2.png';
+import logo from '../styles/maurosergio.png';
 import theme from '../../theme';
 
 const paddingSize = 5;
