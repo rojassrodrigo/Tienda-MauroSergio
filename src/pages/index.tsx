@@ -61,7 +61,7 @@ const IndexRoute: React.FC<Props> = ({products}) => {
                   as={Link}
                   size="lg"
                   colorScheme='whatsapp'
-                  href={`https://wa.me/3704804510?text=${encodeURIComponent(text)}`}
+                  href={`https://wa.me/3704205230?text=${encodeURIComponent(text)}`}
                   leftIcon={<Image src='https://icongr.am/fontawesome/whatsapp.svg?size=35&color=ffffff'/>}
                 >
                   Ver carrito ({cart.length} productos)
